@@ -8,4 +8,4 @@ hobby = 'gaming'
 
 country = 'georgia'
 
-print(name,last_name,age,hobby,country)
+print(name +  ' '  + last_name +  ' '  + age +  ' '  + hobby +  ' '  + country)

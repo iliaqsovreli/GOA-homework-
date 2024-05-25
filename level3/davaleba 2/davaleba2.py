@@ -1,3 +1,5 @@
-item = 'phone'
+tool = 'hammer'
 
-item = 'rock'
+device = 'computer'
+
+print(tool +  ' '  + device)
