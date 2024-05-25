@@ -1,3 +1,0 @@
-item = 'phone'
-
-item = 'rock'
