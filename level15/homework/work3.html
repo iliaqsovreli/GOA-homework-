@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <select name="scan_for">
+        <option value="active-directory">Active Directory</option>
+        <option value="active-directory">Not active-directory</option>
+        </select>
+        <br><br>
+        <input type="text" placeholder="domain_name" name="domain_name">
+        <br><br>
+        <input type="text" placeholder="organizational_unit" name="organizational_unit">
+        <br><br>
+        <input type="text" placeholder="domain_controller" name="domain_controller" >
+        <br><br>
+        <input type="text" placeholder="username" name="username">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password">
+        <br><br>
+        <button type="submit">Add to Scan</button>
+        <button type="button">Exclude from Scan</button>
+    </form>
+</body>
+</html>
